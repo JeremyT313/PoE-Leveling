@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 25%;
+  margin: 3px;
+}
+
+a:hover {
+  background: #121212;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.active {
+  background: green;
+  color: white;
+}
